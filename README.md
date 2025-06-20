@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Web - CABSDEV
 
 Bienvenue sur mon portfolio de développeur web et mobile !
@@ -58,3 +59,11 @@ npm run dev
 ---
 
 > Ce portfolio a été réalisé avec passion pour mettre en avant mes compétences de développeur web, mobile et designer UI/UX.
+=======
+# Portfolio en React + TypeScript + Vite
+
+Il s'agit là du portfolio de *CabsDev*, développé en : 
+```
+react v3 + typescript + vite+ tailwindcss ;
+```
+>>>>>>> 1fb441cf977b97fb42b16bc40fe59b8440fddb6a

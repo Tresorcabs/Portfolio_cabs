@@ -48,7 +48,7 @@ const Projects = () => (
   <div className="py-16 bg-base-300" id="projects">
     <SectionTitle title="Mes Projets" />
     <div className="mx-auto max-w-6xl px-4 grid gap-8 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
-      {projects.map((project, idx) => (
+      {projects.map((project) => (
         <motion.div
           key={project.id}
           whileHover={{

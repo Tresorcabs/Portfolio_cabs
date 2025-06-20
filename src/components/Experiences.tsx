@@ -61,7 +61,7 @@ const experiences = [
   },
 ];
 
-const neonColors = [
+/*const neonColors = [
   "shadow-[0_0_15px_#00ffe7]",
   "shadow-[0_0_15px_#ff00ea]",
   "shadow-[0_0_15px_#ffe600]",
@@ -71,7 +71,7 @@ const neonColors = [
   "shadow-[0_0_15px_#ff007b]",
   "shadow-[0_0_15px_#aaff00]",
   "shadow-[0_0_15px_#ff00c8]",
-];
+];*/
 
 const gradients = [
   "linear-gradient(90deg, #00ffe7, #ff00ea)",
@@ -87,7 +87,7 @@ const Experiences = () => {
       <div className="mx-auto max-w-4xl">
         {/* Skills */}
         <div className="flex flex-wrap justify-center gap-6 mb-12">
-          {skills.map((skill, idx) => (
+          {skills.map((skill) => (
             <motion.div
               key={skill.id}
               whileHover={{

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Portfolio Web - CABSDEV
 
 Bienvenue sur mon portfolio de développeur web et mobile !
@@ -67,3 +68,6 @@ Il s'agit là du portfolio de *CabsDev*, développé en :
 react v3 + typescript + vite+ tailwindcss ;
 ```
 >>>>>>> 1fb441cf977b97fb42b16bc40fe59b8440fddb6a
+=======
+HI 
+>>>>>>> 8cc9b0e890ae6e2b01208414dd77c70f98a61e4c

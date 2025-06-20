@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# Portfolio Web - CABSDEV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon portfolio de développeur web et mobile !
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Aperçu
 
-## Expanding the ESLint configuration
+Ce projet est un portfolio moderne, responsive et professionnel, développé avec :
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" alt="TypeScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="40" alt="TailwindCSS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" alt="Node.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" alt="Next.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" alt="GitHub"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" alt="Figma"/>
+</p>
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## ✨ Fonctionnalités principales
+- Présentation et à propos
+- Expériences professionnelles
+- Projets interactifs avec liens démo et code
+- Section contact (envoi de mail)
+- Responsive design
+- Thème dark/light (DaisyUI)
+
+---
+
+## 📁 Structure des sections
+- **Accueil** : Présentation rapide
+- **À propos** : Compétences et stack
+- **Expériences** : Parcours professionnel
+- **Projets** : Réalisations marquantes
+- **Contact** : Formulaire et liens
+- **Footer** : Réseaux sociaux et copyright
+
+---
+
+## 🛠️ Installation
+
+```bash
+npm install
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📬 Contact
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- [LinkedIn](https://linkedin.com/in/tonprofil)
+- [GitHub](https://github.com/TresorCabs)
+- Email : ton.email@email.com
+
+---
+
+> Ce portfolio a été réalisé avec passion pour mettre en avant mes compétences de développeur web, mobile et designer UI/UX.

@@ -3,7 +3,7 @@ import MonImage from '../assets/img.jpg';
 
 const Hero = () => {
     return (
-      <div className="flex flex-col-reverse items-center justify-center my-10 md:my-32 md:flex-row">
+      <div className="flex flex-col-reverse items-center justify-center my-10 md:my-32 md:flex-row" id="hero">
         
         <div className="flex flex-col">
           <h1 className="mt-4 text-5xl font-bold text-center md:text-6xl md:text-left md:mt-0">

@@ -27,7 +27,7 @@ const aboutSections = [
 
 const About = () => {
     return (
-        <div className="p-10 mb-10 bg-base-300 md:mb32">
+        <div className="p-10 mb-10 bg-base-300 md:mb32" id="about">
             <SectionTitle title="À propos" />
 
             <div className="flex items-center justify-center md:h-screen">
